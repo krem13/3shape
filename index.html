@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Google Books Search results</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="books.js"></script>
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="myPage">
+<div class="header">
+	<div class="container-fluid text-center" id='container'>
+		<h2>Books</h2><br>
+		<h4>Search results for books with '3shape' in the title</h4>
+	</div>
+</div>
+  
+<div class="container-fluid text-center bg-grey" id="container-fluid-loader"></div>
+
+<footer class="container-fluid">
+	<p><strong>Total results: </strong><span id="totalResults"></span></p>
+	<p><strong>Total price: </strong><span id="totalPrice"></span></p>
+</footer>
+
+</body>
+</html>
