@@ -16,7 +16,7 @@ $( document ).ready(function(){
 
 	function view_books() {
 
-		var service = 'https://www.googleapis.com/books/v1/volumes?q=3shape&intitle:3shape&maxResults=8',
+		var service = 'https://www.googleapis.com/books/v1/volumes?q=3shape&intitle:3shape&maxResults=15',
 			totalResults = 0,
 			totalPrice = 0,
 			currency = '',
