@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Google Books Search results | Book Details</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bookDetails.js"></script>
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="header">
+	<div class="container-fluid text-center" id='container'>
+		<h2>Book Details</h2>
+	</div>
+</div>
+
+<div class="container">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+		<li class="breadcrumb-item active" id="breadcrumb-item-last"></li>
+	</ol>
+</div>
+
+<div class="container-fluid">
+    <div class="content-wrapper">	
+		<div class="item-container">	
+			<div class="container">	
+				<div class="col-md-4">
+					<div class="product service-image-left"></div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="product-title"></div>
+					<div class="product-author"></div>
+					<hr>
+					<div class="product-desc"></div>
+					<hr>
+					<div class="product-price"></div>
+					<div class="product-stock">In Stock</div>
+					<hr>
+					<div class="btn-group cart">
+						<button type="button" class="btn btn-success">
+							Add to cart 
+						</button>
+					</div>
+					<div class="btn-group wishlist">
+						<button type="button" class="btn btn-danger">
+							Add to wishlist 
+						</button>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+</div>
+</body>
+</html>
