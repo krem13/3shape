@@ -72,7 +72,7 @@ $( document ).ready(function(){
 					}
 				}
 				
-				document.getElementById("container-fluid-loader").innerHTML += '<div class="row text-center">' + rowHTML + '</div><br>';
+				document.getElementById("container-fluid-loader").innerHTML += '<div class="row text-center">' + rowHTML + '</div>';
 				$('#loader').hide();
 				clearInterval(interval);
 			}
