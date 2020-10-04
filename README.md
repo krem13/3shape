@@ -35,4 +35,4 @@ Files:
 - Extract the files.
 - Open the files in your preferred editor to review the code
 - Open index.html in a browser to view the page
-- You can also access the page from https://krem13.github.io/3shape/
+- You can also access the page from https://krem13.github.io/Search_Google_books/
